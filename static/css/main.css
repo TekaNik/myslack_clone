@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.login {
+  background-color: #6D8DB1;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login #container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #B6CCE3;
+  width: 30vw;
+  height: 90%;
+  -webkit-box-shadow: 2px 0px 5px #000000;
+          box-shadow: 2px 0px 5px #000000;
+  border-radius: 17px;
+}
+
+.login #container > div {
+  margin: 8vh auto;
+  width: 15vw;
+  height: auto;
+}
+
+.login #container > div img {
+  width: 100%;
+}
+
+.login #container h1 {
+  font-size: xx-large;
+}
+
+.login #container button {
+  margin-top: 10vw;
+  border: none;
+  height: 42px;
+  width: 50%;
+  cursor: pointer;
+  font-size: 1.2vw;
+  background: rgba(196, 196, 196, 0.59);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+.login #container button:focus {
+  border: none;
+}
+
+header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 20%;
+      grid-template-columns: 1fr 20%;
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: #350D36;
+  width: 100vw;
+  height: auto;
+  padding: 5px;
+}
+
+header .section-1, header .section-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px auto;
+}
+
+header .section-1 input, header .section-2 input {
+  width: 30%;
+  height: auto;
+  padding: 6px;
+  margin: auto 7px;
+  border-radius: 6px;
+  background-color: transparent;
+  color: #FFFAFA;
+}
+
+header .section-1 i.material-icons, header .section-2 i.material-icons {
+  color: #FFFAFA;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: auto;
+  font-size: 36px;
+}
+
+header .section-2 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #FFFAFA;
+}
+
+header .section-2 p {
+  font-size: 2.5vw;
+  margin-right: 6px;
+}
+
+main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.3fr auto;
+      grid-template-columns: 0.3fr auto;
+}
+
+main .section-3 {
+  background-color: #3F0E40;
+  height: 100vh;
+  padding-left: 2vw;
+}
+
+main .section-3 .one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .section-3 .one i.material-icons {
+  font-size: 2vw;
+  background-color: #FFFAFA;
+  border-radius: 50%;
+  padding: 2.5%;
+  margin: 2%;
+  cursor: pointer;
+}
+
+main .section-3 .one h1 {
+  color: #FFFAFA;
+  font-size: 2vw;
+}
+
+main .section-3 .two, main .section-3 .three {
+  padding: 5%;
+}
+
+main .section-3 .two p#container, main .section-3 .three p#container, main .section-3 .two p, main .section-3 .two .three p, main .section-3 .three .two p, main .section-3 .three p {
+  color: #FFFAFA;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .section-3 .two p#container span, main .section-3 .three p#container span, main .section-3 .two p span, main .section-3 .three .two p span, main .section-3 .two .three p span, main .section-3 .two .three p span, main .section-3 .three .two p span, main .section-3 .three p span {
+  margin-left: 15px;
+}
+
+main .section-3 .three h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFFAFA;
+  font-size: 1.7vw;
+}
+
+main .section-3 .three h3 i.material-icons {
+  font-size: 2vw;
+  padding: 2.5%;
+  margin: 2%;
+  cursor: pointer;
+}
+
+main .section-3 .three p {
+  padding-top: 1vh;
+}
+
+main .section-4 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 50px auto min-content;
+      grid-template-rows: 50px auto -webkit-min-content;
+      grid-template-rows: 50px auto min-content;
+}
+
+main .section-4 .four {
+  padding: 12px;
+}
+
+main .section-4 .five > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20vw;
+}
+
+main .section-4 .five > div i {
+  width: 40px;
+  height: 40px;
+  margin-left: 2%;
+}
+
+main .section-4 .five > div i img {
+  width: 100%;
+}
+
+main .section-4 .five > div p {
+  margin: auto 10px;
+}
+
+main .section-4 #user-msg {
+  margin-left: 2%;
+}
+
+main .section-4 .six form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 2rem;
+}
+
+main .section-4 .six form input {
+  padding: 12px;
+  border-bottom: none;
+}
+
+main .section-4 .six form input[type=submit] {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  width: 60px;
+  height: 40px;
+  background-color: #007a5a;
+  border-radius: 11px;
+  color: #FFFAFA;
+}
+
+main .section-4 .six form input[type=submit]:hover {
+  background-color: darkgray;
+}
+
+main .section-4 .six form span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 1vh;
+}
+
+main .section-4 .six form span i:hover {
+  cursor: pointer;
+  background-color: #888888;
+}
+/*# sourceMappingURL=main.css.map */
